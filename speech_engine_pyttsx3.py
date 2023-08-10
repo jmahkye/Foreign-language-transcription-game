@@ -1,6 +1,7 @@
 import pyttsx3
 import platform
 import ispeech_engine
+import random_word_generator
 
 
 class TextToSpeechPyttsx3(ispeech_engine.ITextToSpeech):
@@ -98,4 +99,4 @@ if __name__ == "__main__":
 
     tts.speak(text_to_read)
 
-    # tts.close()
+    tts.close()
